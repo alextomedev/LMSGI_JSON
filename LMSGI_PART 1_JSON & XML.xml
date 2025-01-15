@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TendaBeisbol>
+    <Nom>Tenda de Beisbol</Nom>
+    <Ubicacio>
+        <Pais>Espanya</Pais>
+        <Ciutat>Barcelona</Ciutat>
+        <Adreca>Carrer de Beisbol, 123</Adreca>
+    </Ubicacio>
+    <Productes>
+        <Producte id="Rawlings SGROLB1">
+            <Nom>Rawlings© Official League ROLB1</Nom>
+            <Descripcio lang="cat">Pilota de beisbol Rawlings©, ideal per a entrenaments i partits oficials.</Descripcio>
+            <Preu moneda="€">6,95</Preu>
+            <Categoria>Pilotes</Categoria>
+            <Marca>Rawlings</Marca>
+            <Disponibilitat>En Stock</Disponibilitat>
+            <Material>Cuir</Material>
+            <Pes>5 oz</Pes>
+            <Tamany>9 inch</Tamany>
+            <imagen src="imagenes/pelota.jpg" />
+        </Producte>
+
+        <Producte id="Benson LGB1">
+            <Nom>Benson© LGB1 (Official RFEBS Baseball)</Nom>
+            <Descripcio lang="cat">Pilota de beisbol BENSON© Oficial de la RFEBS per a competicions estatals.</Descripcio>
+            <Preu moneda="€">5,95</Preu>
+            <Categoria>Pilotes</Categoria>
+            <Marca>Benson</Marca>
+            <Disponibilitat>En Stock</Disponibilitat>
+            <Material>Cuir</Material>
+            <Pes>5 oz</Pes>
+            <Tamany>9 inch</Tamany>
+            <imagen src="imagenes/pelota.jpg" />
+        </Producte>
+
+        <Producte id="Wilson A1035CSB">
+            <Nom>Wilson© A1035</Nom>
+            <Descripcio>Pilota de beisbol Wilson© per a entrenaments i competicions de College i High School</Descripcio>
+            <Preu moneda="€">6,95</Preu>
+            <Categoria>Pilotes</Categoria>
+            <Marca>Wilson</Marca>
+            <Disponibilitat>Sense Stock</Disponibilitat>
+            <Material>Cuir</Material>
+            <Pes>5 oz</Pes>
+            <Tamany>9 inch</Tamany>
+        </Producte>
+    </Productes>
+    <MetodeEnviament>
+        <Metode>Enviament a domicili</Metode>
+        <Cost>5.00</Cost>
+        <TerminiEntrega>3-5 dies hàbils</TerminiEntrega>
+    </MetodeEnviament>
+    <Contacte>
+        <Telefon>+34 123 456 789</Telefon>
+        <Correu>contacte@tendabeisbol.com</Correu>
+        <Horari>Dilluns a Divendres, 9:00 - 21:00</Horari>
+    </Contacte>
+</TendaBeisbol>
