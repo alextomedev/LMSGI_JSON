@@ -1,12 +1,17 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?> 
+<!-- Arrel del document que representa la tenda de beisbol -->
 <TendaBeisbol>
+    <!-- Nom i ubicació de la tenda -->
     <Nom>Tenda de Beisbol</Nom>
     <Ubicacio>
         <Pais>Espanya</Pais>
         <Ciutat>Barcelona</Ciutat>
         <Adreca>Carrer de Beisbol, 123</Adreca>
     </Ubicacio>
+    
+    <!-- Llista de productes disponibles a la tenda -->
     <Productes>
+        <!-- Producte amb els seus detalls -->
         <Producte id="Rawlings SGROLB1">
             <Nom>Rawlings© Official League ROLB1</Nom>
             <Descripcio lang="cat">Pilota de beisbol Rawlings©, ideal per a entrenaments i partits oficials.</Descripcio>
@@ -19,7 +24,7 @@
             <Tamany>9 inch</Tamany>
             <imagen src="imagenes/pelota.jpg" />
         </Producte>
-
+        <!-- Producte amb identificador únic i altres atributs -->
         <Producte id="Benson LGB1">
             <Nom>Benson© LGB1 (Official RFEBS Baseball)</Nom>
             <Descripcio lang="cat">Pilota de beisbol BENSON© Oficial de la RFEBS per a competicions estatals.</Descripcio>
@@ -32,7 +37,6 @@
             <Tamany>9 inch</Tamany>
             <imagen src="imagenes/pelota.jpg" />
         </Producte>
-
         <Producte id="Wilson A1035CSB">
             <Nom>Wilson© A1035</Nom>
             <Descripcio>Pilota de beisbol Wilson© per a entrenaments i competicions de College i High School</Descripcio>
@@ -45,11 +49,15 @@
             <Tamany>9 inch</Tamany>
         </Producte>
     </Productes>
+    
+    <!-- Informació sobre el metode d'enviament -->
     <MetodeEnviament>
         <Metode>Enviament a domicili</Metode>
         <Cost>5.00</Cost>
         <TerminiEntrega>3-5 dies hàbils</TerminiEntrega>
     </MetodeEnviament>
+    
+    <!-- Informació de contacte -->
     <Contacte>
         <Telefon>+34 123 456 789</Telefon>
         <Correu>contacte@tendabeisbol.com</Correu>
