@@ -1,0 +1,82 @@
+[
+  {
+    "id": "01_01_Pikachu",
+    "nom": "Pikachu",
+    "tipus": ["Elèctric"],
+    "pes": 6.0,
+    "altura": 0.4,
+    "estadistiques": {
+      "velocitat": 90,
+      "fortalesa": 55,
+      "precisio": 70,
+      "resistencia": 40
+    },
+    "moviments": [
+      {
+        "nom": "Impactrueno",
+        "descripcio": "Un atac elèctric bàsic que pot paralitzar el rival.",
+        "potencia": 40,
+        "contacte": false
+      },
+      {
+        "nom": "Atac Ràpid",
+        "descripcio": "Un atac ràpid que sempre té prioritat.",
+        "potencia": 40,
+        "contacte": true
+      }
+    ],
+    "imatge": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/025.png",
+    "evolucions": [
+      {
+        "id": "01_02_Pichu",
+        "nom": "Pichu",
+        "nivell_necessari": 1
+      },
+      {
+        "id": "01_03_Raichu",
+        "nom": "Raichu",
+        "nivell_necessari": 22
+      }
+    ]
+  },
+  {
+    "id": "02_01_Charmander",
+    "nom": "Charmander",
+    "tipus": ["Foc"],
+    "pes": 8.5,
+    "altura": 0.6,
+    "estadistiques": {
+      "velocitat": 65,
+      "fortalesa": 52,
+      "precisio": 60,
+      "resistencia": 43
+    },
+    "moviments": [
+      {
+        "nom": "Llançament de Flama",
+        "descripcio": "Un atac de foc que pot causar cremades.",
+        "potencia": 40,
+        "contacte": false
+      },
+      {
+        "nom": "Grunyit",
+        "descripcio": "Redueix l'atac del rival.",
+        "potencia": 0,
+        "contacte": false
+      }
+    ],
+    "imatge": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/004.png",
+    "evolucions": [
+      {
+        "id": "02_02_Charmaleon",
+        "nom": "Charmeleon",
+        "nivell_necessari": 16
+      },
+      {
+        "id": "02_03_Charizard",
+        "nom": "Charizard",
+        "nivell_necessari": 36
+      }
+    ]
+  }
+]
